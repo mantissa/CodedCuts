@@ -12,7 +12,7 @@ Download Processing from https://processing.org/download/ to run the sketches.
 
 The sketches require the following libraries in order to run.
 Unpack the zip files and place the content's in your Processing library folder.
-You will need to quit and restart Processing.
+You will need to quit and restart Processing. See https://github.com/processing/processing/wiki/How-to-Install-a-Contributed-Library for more info. 
 
 Control P5 library (for creating user interface elements)
 https://github.com/sojamo/controlp5/releases/download/v2.2.5/controlP5-2.2.5.zip
