@@ -10,14 +10,27 @@ void setup() {
   size(600, 600);
   
   // load the shape into 
-  svgShape = loadShape("Trangle04_tif.svg");
+  svgShape = loadShape("Peace.svg");
+  
+  // if we want to set change how the SVG 
+  // files are drawn
+  //svgShape.disableStyle();
 }
 
 void draw() {
 
   // clear the bg
-  background(255, 255, 0);
+  background(0, 0, 255);
+  
+  // draw white without stroke 
+  // ignored by default (see disableStyle() above)
+  fill(255);
+  noStroke();
+  
+  // center the shape when drawing 
+  // usually draws from upper left coordinate
+  shapeMode(CENTER);
 
   // draw the svg
-  shape( svgShape, 0, 0);
+  shape( svgShape, width/2, height/2);
 }
