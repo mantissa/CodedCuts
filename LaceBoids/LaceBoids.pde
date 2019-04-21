@@ -29,6 +29,7 @@ int boids_NeighborDistance = 50;
 int boids_Count = 500;
 boolean uiVisible = true;
 boolean showMesh = false;
+float minArea = 30.0;     
 
 void setup() {
 
@@ -146,13 +147,13 @@ void draw() {
           boolean i2 = pointInTriangle( inset2, p1, p2, p3);
           boolean i3 = pointInTriangle( inset3, p1, p2, p3);
           
-          float l1 = dist( p1.x, p1.y, p2.x, p2.y );
-          float l2 = dist( p2.x, p2.y, p3.x, p3.y );
-          float l3 = dist( p3.x, p3.y, p1.x, p1.y );
           
-          float minLen = 6.0;          
+          
+          float area = getArea( p1, p2, p3);
 
-         if( i1 && i2 && i3 && l1 > minLen && l2 > minLen && l3 > minLen){
+          
+
+         if( i1 && i2 && i3 && area > minArea){
            
              beginShape(TRIANGLES);
              vertex(inset1.x, inset1.y);
@@ -171,6 +172,7 @@ void draw() {
     }
   }
 }
+
 
 void createUI(){
   
