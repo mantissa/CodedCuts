@@ -12,10 +12,10 @@ Download Processing from https://processing.org/download/ to run the sketches.
 
 The sketches require the following libraries in order to run.
 
-Control P5 library (for creating user interface elements)
+Control P5 (for creating user interface elements)
 https://github.com/sojamo/controlp5/releases/download/v2.2.5/controlP5-2.2.5.zip
 
-Triangulate library (for Delaunay triangulation)
+Triangulate (for Delaunay triangulation)
 http://n.clavaud.free.fr/processing/triangulate/triangulate-20100628.zip
 
 Unpack the zip files and place the contents in your Processing library folder.
