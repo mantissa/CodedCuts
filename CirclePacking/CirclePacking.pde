@@ -9,6 +9,7 @@ boolean addShapes = true;
 String fileName;
 boolean exportShapes;
 int exportLayer;
+float randomRotation = 1.0; // 10% or (-5% left 5% right)
 
 // background layer red
 // bottom layer: layer 0 ( blue)

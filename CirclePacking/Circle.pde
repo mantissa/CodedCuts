@@ -10,7 +10,7 @@ class Circle {
   float y;
   float d;
   int shapeIndex = 0; 
-  float r = random(TWO_PI); // random rotation
+  float r = random(-PI * randomRotation, PI * randomRotation); // random rotation
   int padding = 3; // fixed padding
   CutMode cutMode = CutMode.CUT; 
 

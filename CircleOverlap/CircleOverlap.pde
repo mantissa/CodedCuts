@@ -20,6 +20,10 @@ void draw(){
     
     // --------- draw the first circle ---------
     
+    // set its position to match the cursor
+    c2.x = mouseX;
+    c2.y = mouseY;
+    
     fill( 0, 255, 0);
     c2.draw();
     
@@ -65,16 +69,4 @@ boolean getCirclesOverlap( Circle c1, Circle c2 ){
     }
     
     return false;
-}
-
-void mousePressed(){
- 
-    c1.x = mouseX;
-    c1.y = mouseY;
-}
-
-void mouseDragged(){
- 
-    c1.x = mouseX;
-    c1.y = mouseY;
 }
