@@ -115,6 +115,7 @@ void draw() {
           float b = random(255);
           
           fill(r,g,b);
+          stroke(r, g, b);
      
           beginShape(TRIANGLES);
           vertex(t.p1.x, t.p1.y);
@@ -144,8 +145,14 @@ void draw() {
           boolean i1 = pointInTriangle( inset1, p1, p2, p3);
           boolean i2 = pointInTriangle( inset2, p1, p2, p3);
           boolean i3 = pointInTriangle( inset3, p1, p2, p3);
+          
+          float l1 = dist( p1.x, p1.y, p2.x, p2.y );
+          float l2 = dist( p2.x, p2.y, p3.x, p3.y );
+          float l3 = dist( p3.x, p3.y, p1.x, p1.y );
+          
+          float minLen = 6.0;          
 
-         if( i1 && i2 && i3 ){
+         if( i1 && i2 && i3 && l1 > minLen && l2 > minLen && l3 > minLen){
            
              beginShape(TRIANGLES);
              vertex(inset1.x, inset1.y);
