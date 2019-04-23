@@ -7,8 +7,8 @@ This is a repository of code samples that were programmed in Processing and open
 ### Workshop Images 
 
 Shape-Fitting | BoidsLace | ContourOfChange
-Shape-Fitting | BoidsLace | ContourOfChange
 --- | --- | ---
+Shape-Fitting | BoidsLace | ContourOfChange
 
 <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/ShapeFitting.JPG" width="200">
 
