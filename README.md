@@ -4,9 +4,19 @@ April 27 & 28, 2019
 
 This is a repository of code samples that were programmed in Processing and openFrameworks.
 
+### Workshop Images 
+
 <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/ShapeFitting.JPG" width="200">
+
+Shape-Fitting a Narrative
+
 <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/BoidsLace.JPG" width="200">
+
+Boids Lace
+
 <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/ContourOfChange.JPG" width="200">
+
+Shadow/Contour of Change
 
 ### Processing Sketches 
 
