@@ -4,6 +4,8 @@ April 27 & 28, 2019
 
 This is a repository of code samples that were programmed in Processing and openFrameworks.
 
+![alt text](https://github.com/mantissa/CodedCuts/blob/master/DemoImages/BoidsLace.JPG)
+
 ### Processing Sketches 
 
 Download Processing from https://processing.org/download/ to run the sketches.
