@@ -6,21 +6,9 @@ This is a repository of code samples that were programmed in Processing and open
 
 ### Workshop Images 
 
-<img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/ShapeFitting.JPG" width="200"> | BoidsLace | ContourOfChange
+<img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/ShapeFitting.JPG" width="200"> | <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/BoidsLace.JPG" width="200"> | <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/ContourOfChange.JPG" width="200">
 --- | --- | ---
-Shape-Fitting | BoidsLace | ContourOfChange
-
-
-
-Shape-Fitting a Narrative
-
-<img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/BoidsLace.JPG" width="200">
-
-BoidsLace
-
-<img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/ContourOfChange.JPG" width="200">
-
-Shadow/Contour of Change
+Shape-Fitting a Narrative | Boids Lace | Shadow/Contour Of Change
 
 ### Processing Sketches 
 
