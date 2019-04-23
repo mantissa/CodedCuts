@@ -7,7 +7,6 @@ This is a repository of code samples that were programmed in Processing and open
 ### Workshop Images 
 
 Markdown | Less | Pretty
-Shape-Fitting | BoidsLace | ContourOfChange 
 --- | --- | ---
 
 <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/ShapeFitting.JPG" width="200">
