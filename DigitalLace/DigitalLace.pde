@@ -6,6 +6,9 @@ import org.processing.wiki.triangulate.*;
 import processing.pdf.*;
 import processing.svg.*;
 import controlP5.*;
+import java.util.Date;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 
 // boids & boids positions
 ArrayList<Boid> boids;
@@ -18,7 +21,7 @@ boolean drawBoids = false;
 
 // saving options
 boolean saveFile = false;
-String fileName = "LaceBoids.svg";
+String fileName = "DigitalLace.svg";
 
 // gui 
 ControlP5 cp5;
@@ -289,8 +292,21 @@ public void New_Flock(int theValue) {
 public void Save_File(int theValue) {
   
   println("a button event from Save_File");
+  println("thevalue "+ theValue);
+    
+  // create a dynamic name for exporting (based on today's date) 
+  // so that we don't overwrite any previous exports
+  // note: extra java libraries imported at top of sketch
+  DateFormat formatter = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
+  Date d = new Date();
+  
+  // add strings to begin/end, including name and file type
+  fileName = "DigitalLace_"+formatter.format(d)+".svg";
+  
+  println("Writing to file "+fileName);
   
   saveFile = true;
+  
 }
 
 PVector getInset( PVector pt, PVector left, PVector right, float distance) {

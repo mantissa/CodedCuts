@@ -13,7 +13,7 @@ ArrayList triangles = new ArrayList();
 
 void setup() {
   
-  size(400, 400);
+  size(600, 600);
   smooth();
 }
  
@@ -63,5 +63,10 @@ void keyPressed(){
     if( key == 'c' ) {
       points.clear();
       triangles.clear();
+    }
+    
+    if( key == 's' ){
+     
+        saveFrame();
     }
 }

@@ -25,8 +25,6 @@ void draw() {
   // so it will be included in the expored file 
   background(255, 255, 0);
   
- 
-  
   // draw a (5x5) grid of white shapes with blue outlines
   
   int nSteps = 5;
@@ -50,6 +48,9 @@ void draw() {
         ellipse( x, y, stepSize - strokeW*2, stepSize - strokeW*2);
     }
   }
+  
+  //noFill();
+  //rect(0, 0, width, height);
   
   if( exportShapes ){
     
