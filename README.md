@@ -6,8 +6,8 @@ This is a repository of code samples that were programmed in Processing and open
 
 ### Workshop Images 
 
-| Tables        | Are           | Cool  |
-| col 3 is      | right-aligned | $1600 |
+Markdown | Less | Pretty
+--- | --- | ---
 
 <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/ShapeFitting.JPG" width="200">
 
