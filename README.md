@@ -4,7 +4,7 @@ April 27 & 28, 2019
 
 A two-day workshop that looks at the history of paper-cutting craft and introduces new techniques involving generative processes. Students will first draw their own line art. Using this as a source, they will digitize their artwork to vector graphics and use custom software to generate a composition. With the help of laser cutting, students will assemble paper cuts that utilize layering and color play. This workshop provides an introduction to programming concepts through the medium of paper; no prior programming experience is necessary.
 
-This is a repository of code samples that were programmed in Processing and openFrameworks.
+This is a repository of code samples and workshop applications that were made with Processing and openFrameworks.
 
 ### Workshop Images 
 
