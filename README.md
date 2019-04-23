@@ -6,7 +6,7 @@ This is a repository of code samples that were programmed in Processing and open
 
 ### Workshop Images 
 
-Shape-Fitting | Less | Pretty
+Shape-Fitting | BoidsLace | Pretty
 --- | --- | ---
 
 <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/ShapeFitting.JPG" width="200">
@@ -15,7 +15,7 @@ Shape-Fitting a Narrative
 
 <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/BoidsLace.JPG" width="200">
 
-Boids Lace
+BoidsLace
 
 <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/ContourOfChange.JPG" width="200">
 
