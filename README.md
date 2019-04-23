@@ -10,7 +10,7 @@ This is a repository of code samples and workshop applications that were made wi
 
 <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/ShapeFitting.JPG" width="200"> | <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/BoidsLace.JPG" width="200"> | <img src="https://github.com/mantissa/CodedCuts/blob/master/DemoImages/ContourOfChange.JPG" width="200">
 --- | --- | ---
-Shape-Fitting a Narrative | Boids Lace | Shadow/Contour Of Change
+Shape-Fitting a Narrative | Digital Lace | Shadow/Contour Of Change
 
 ### Processing Sketches 
 
