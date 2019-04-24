@@ -129,7 +129,7 @@ void draw() {
     if( exportLayer == 0 ){
       
        // if exporting layer 0, start next layer
-       fileName = "data/export/layer1.svg";
+       fileName = "data/export/CirclePacking_layer_1.svg";
        exportLayer = 1;
        
        println("exporting layer 1");
@@ -253,7 +253,7 @@ void keyPressed() {
     
     println("exporting layer 0");
 
-    fileName = "data/export/layer0.svg";
+    fileName = "data/export/CirclePacking_layer_0.svg";
     exportShapes = true;
     exportLayer = 0;
     addShapes = false;
