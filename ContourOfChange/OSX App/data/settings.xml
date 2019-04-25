@@ -1,8 +1,0 @@
-<group>
-	<numSteps>4</numSteps>
-	<stepSize>10</stepSize>
-	<distortDist>20</distortDist>
-	<distortSmooth>0.008</distortSmooth>
-<group/>
-<UnknownName>1</UnknownName>
-</group>
