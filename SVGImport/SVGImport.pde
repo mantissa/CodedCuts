@@ -7,10 +7,10 @@ PShape svgShape;
 
 void setup() {
   
-  size(600, 600);
+  size(800, 800);
   
   // load the shape into 
-  svgShape = loadShape("Peace.svg");
+  svgShape = loadShape("Trash.svg");
   
   // if we want to set change how the SVG 
   // files are drawn
@@ -19,8 +19,8 @@ void setup() {
 
 void draw() {
 
-  // clear the bg
-  background(0, 0, 255);
+  // clear the bg (yellow)
+  background(255, 255, 0);
   
   // draw white without stroke 
   // ignored by default (see disableStyle() above)

@@ -9,8 +9,8 @@ void setup(){
   
     // create two circles 
     // note: two different diameters
-    c1 = new Circle( width/2 - 120, height/2, 220);
-    c2 = new Circle( width/2 + 120, height/2, 160);
+    c1 = new Circle( width/2 - 120, height/2, 160);
+    c2 = new Circle( width/2 + 120, height/2, 220);
 }
 
 void draw(){
@@ -18,19 +18,21 @@ void draw(){
     // clear the background
     background(127);
     
-    // --------- draw the first circle ---------
-    
-    // set its position to match the cursor
-    c2.x = mouseX;
-    c2.y = mouseY;
-    
-    fill( 0, 255, 0);
-    c2.draw();
-    
     // --------- draw the second circle ---------
     
+    fill( 0, 255, 0);
+    
+    c2.draw();
+    
+     // --------- draw the first circle ---------
+    
+    // set its position to match the cursor
+    
+    c1.x = mouseX;
+    c1.y = mouseY;
+    
     // test if two circles overlap
-  
+    
     if( getCirclesOverlap( c1, c2 )){
      
         // if they do, draw in red
@@ -41,7 +43,7 @@ void draw(){
         // if not, draw in blue
         fill( 0, 0, 255);
     }
-  
+   
     c1.draw();
     
     // --------- draw a line connecting the two circles ---------
@@ -64,7 +66,7 @@ boolean getCirclesOverlap( Circle c1, Circle c2 ){
     float d = sqrt( dx * dx + dy * dy);
     
     // if distance is less than the radius (diameter/2)
-    if( d < c1.diam/2 + c2.diam/2 ){
+    if( d < (c1.diam/2 + c2.diam/2) ){
         return true;
     }
     
