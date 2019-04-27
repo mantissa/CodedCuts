@@ -39,8 +39,7 @@ Quit and restart Processing. See https://github.com/processing/processing/wiki/H
 
 [The Shadow/Contour of Change](https://docs.google.com/document/d/13wILhUohQjUOOPJWTsxje0aD5cM56FuaPg48HIA5D10/edit?usp=sharing)
 
-[Adobe Illustrator: SVG Output Clean-up for Laser-ready Files]
-(https://docs.google.com/document/d/1ggS660cY5DeRmuRYliTOPmH5RCrdF7RU3DxWk1dI-7I/edit?usp=sharing)
+[Adobe Illustrator: SVG Output Clean-up for Laser-ready Files](https://docs.google.com/document/d/1ggS660cY5DeRmuRYliTOPmH5RCrdF7RU3DxWk1dI-7I/edit?usp=sharing)
 
 [Papercutting Tips for the Laser](https://docs.google.com/document/d/1nzTQj-OkKQnKXLeLqozwP8AkuMulZydEsUO0e1atahY/edit?usp=sharing)
 
