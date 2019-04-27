@@ -34,5 +34,9 @@
 	<string>0511</string>
 	<key>DTXcodeBuild</key>
 	<string>5B1008</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app needs to access the camera</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app needs to access the microphone</string>
 </dict>
 </plist>
