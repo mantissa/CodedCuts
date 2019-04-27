@@ -31,8 +31,7 @@ Quit and restart Processing. See https://github.com/processing/processing/wiki/H
 
 ### Illustrator Tutorials
 
-[Creating Motifs for a Narrative Image]
-(https://docs.google.com/document/d/1zP_q6APzuy6R5oKZRXpGRwuaLuHnhAKCBMHae8bK9ek/edit?usp=sharing)
+[Creating Motifs for a Narrative Image](https://docs.google.com/document/d/1zP_q6APzuy6R5oKZRXpGRwuaLuHnhAKCBMHae8bK9ek/edit?usp=sharing)
 
 [Shape-fitting A Narrative]
 (https://docs.google.com/document/d/1fzF2w1S-7rrlury8rZqucWfVu3gi_JjshP1oj1uSkLk/edit?usp=sharing)
