@@ -16,7 +16,7 @@ Shape-Fitting a Narrative | Digital Lace | Shadow/Contour Of Change
 
 Download Processing from https://processing.org/download/ to run the sketches.
 
-### Dependencies
+#### Dependencies
 
 The sketches require the following libraries in order to run.
 
