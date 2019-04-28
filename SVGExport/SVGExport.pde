@@ -5,7 +5,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
 String fileName;
-boolean exportShapes;
+boolean exportShapes = false;
 
 void setup() {
   
