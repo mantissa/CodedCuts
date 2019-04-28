@@ -12,6 +12,10 @@ This is a repository of code samples and workshop applications that were made wi
 --- | --- | ---
 Shape-Fitting a Narrative | Digital Lace | Shadow/Contour Of Change
 
+### Workshop Slides
+
+[Google Slides](https://docs.google.com/presentation/d/1oYZbOugWa-13mZ8q8lgMOibEA1kbJjSBxmuhNrBVLq4/edit?usp=sharing)
+
 ### Processing Sketches 
 
 Download Processing from https://processing.org/download/ to run the sketches.
